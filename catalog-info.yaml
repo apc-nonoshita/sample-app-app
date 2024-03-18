@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-app
+spec:
+  type: service
+  system: test-system
+  lifecycle: production
+  owner: group:default/apc-nonoshita
+  git: github
+  git_host_url: github.com
+  git_owner_name: apc-nonoshita
