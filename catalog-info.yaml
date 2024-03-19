@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sample-app
+  annotations:
+    backstage.io/kubernetes-id: sample-app-app
+    janus-idp.io/tekton: sample-app-app
 spec:
   type: service
   system: test-system
